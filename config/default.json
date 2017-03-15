@@ -1,0 +1,43 @@
+{
+  "Web": {
+    "translate": {
+      "translateUrl": "http://localhost:10999/interface/translate"
+    },
+    "messageStorage": {
+      "messagesUrl": "http://localhost:10999/messages",
+      "actionsUrl": "http://localhost:10999/actions",
+      "questionsUrl": "http://localhost:10999/questions",
+      "repliesUrl": "http://localhost:10999/replies",
+      "incidentsSelectUrl": "http://localhost:10999/incidentsSelect",
+      "incidentsCreateUrl": "http://localhost:10999/incidentsCreate",
+      "incidentsUpdateUrl": "http://localhost:10999/incidentsUpdate"
+    },
+    "messageToDocx": {
+      "messagesUrl": "http://localhost:10999/conversion/MessageToDocx"
+    },
+    "chatbot": {
+      "notifyUrl": "http://localhost:3978/api/notify",
+      "completeUrl": "http://localhost:3978/api/complete",
+      "viewCalendarUrl": "http://localhost:3978/viewCalendar",
+      "sendMinutes": "http://localhost:3978/sendMinutes"
+    },
+    "retrieveKBase": {
+      "Url": "http://localhost:10999/interface/retrieveKBase"
+    },
+    "searchPDirectory": {
+      "inputKeywordUrl": "http://localhost:10999/interface/searchPDKeywords",
+      "Url": "http://localhost:10999/interface/searchPDirectory"
+    },
+    "jsonServer": {
+      "Faq": "http://localhost:3000/faq",
+      "Dispatch": "http://localhost:3000/dispatchTo",
+      "RequestRoll": "http://localhost:3000/RequestRoll"
+    },
+    "redirect": {
+      "Faq": "http://momochi-hub.toshiba.co.jp/redirectFAQ"
+    },
+    "mrm": {
+      "Url": "http://localhost:8080/roomCanceledConfirm/availability/"
+    }
+  }
+}

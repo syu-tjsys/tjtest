@@ -1,0 +1,29 @@
+{
+  "name": "flows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flow-setup.js",
+  "scripts": {
+    "start": "cross-env NODE_RED_ENV=production node ./index.js",
+    "devstart": "cross-env NODE_RED_ENV=development node ./index.js",
+    "edit": "node-red --userDir .nodered flows.json",
+    "prejsdoc": "mkdirp ./jsdoc/plantuml && puml generate ./plantuml/CTemplate.puml -o ./jsdoc/plantuml/CTemplate.png",
+    "jsdoc": "jsdoc -r ./lib/ -d ./jsdoc/ -R ./README.md"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aai-common": "https://github.com/momochi2016001/aai-common.git",
+    "config": "^1.24.0",
+    "cross-env": "^3.1.4",
+    "cson": "^4.0.0",
+    "node-red": "^0.16.0",
+    "node-red-contrib-config": "^1.0.1",
+    "template-util": "https://github.com/momochi2016001/template-util"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3",
+    "mkdirp": "^0.5.1",
+    "node-plantuml": "^0.5.0"
+  }
+}

@@ -1,0 +1,39 @@
+'tmplOfUnittest' : '''
+Name is {{name}} and Email Address is {{address}}.
+'''
+
+
+'tmplOfReadme' : '''
+{{fileName}}
+======================
+
+Overview
+----------------------
+
+Description
+----------------------
+
+Installation
+----------------------
+```bash
+$ npm install
+```
+
+Usage
+----------------------
+```bash
+$ npm start
+```
+
+Test execution
+----------------------
+```bash
+$ npm test
+```
+
+liecense
+----------------------
+{{liecense}}
+
+// --- end of file --- //
+'''
